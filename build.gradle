@@ -1,10 +1,26 @@
 plugins {
+<<<<<<< Updated upstream
 	id 'fabric-loom' version '1.7-SNAPSHOT'
 	id 'maven-publish'
 }
 
 version = project.mod_version
 group = project.maven_group
+=======
+    id 'java-library'
+    id 'eclipse'
+    id 'idea'
+    id 'maven-publish'
+    id 'net.neoforged.gradle.userdev' version '7.0.142'
+}
+
+version = mod_version
+group = mod_group_id
+
+repositories {
+    mavenLocal()
+}
+>>>>>>> Stashed changes
 
 base {
 	archivesName = project.archives_base_name
