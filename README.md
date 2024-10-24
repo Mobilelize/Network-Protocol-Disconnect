@@ -9,3 +9,5 @@ With Network Protocol Disconnect, this issue is resolved by overriding the defau
 ⚠️ Warning: By disabling the disconnect feature, you may remain connected to servers sending faulty or malicious packets. Use this mod at your own risk, especially when playing on untrusted or unknown servers. Always ensure you play on reputable servers to avoid potential security issues.
 
 Ideal for players encountering frequent disconnects on modded or unstable servers!
+
+This mod will no longer be continued, as Mojang has removed strict error handling as of version 1.21.2, eliminating the need for the mod moving forward.
