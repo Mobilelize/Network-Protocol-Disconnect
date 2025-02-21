@@ -10,4 +10,4 @@ With Network Protocol Disconnect, this issue is resolved by overriding the defau
 
 Ideal for players encountering frequent disconnects on modded or unstable servers!
 
-This mod will no longer be continued, as Mojang has removed strict error handling as of version 1.21.2, eliminating the need for the mod moving forward.
+~~This mod will no longer be continued, as Mojang has removed strict error handling as of version 1.21.2, eliminating the need for the mod moving forward.~~ ok, I was wrong, network protocol error is still an issue, but I don't think it would affect most people. So the project will be continued. Even though strict error handling is removed, it doesn't mean network protocol error is removed.
