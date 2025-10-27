@@ -8,8 +8,8 @@
 		"Mobilelize"
 	],
 	"contact": {
-		"homepage": "https://github.com/Mobilelize/Network-Protocol-Disconnect/tree/fabric-1.21",
-		"sources": "https://github.com/Mobilelize/Network-Protocol-Disconnect/tree/fabric-1.21"
+		"homepage": "https://github.com/Mobilelize/Network-Protocol-Disconnect",
+		"sources": "https://github.com/Mobilelize/Network-Protocol-Disconnect/tree/1.21.2-fabric"
 	},
 	"license": "MIT",
 	"icon": "assets/netprodis/icon.png",
@@ -33,7 +33,7 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.15.0",
-		"minecraft": "~1.21",
+		"minecraft": "*",
 		"java": ">=21"
 	},
 	"suggests": {
