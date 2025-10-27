@@ -15,11 +15,17 @@
 	"icon": "assets/netprodis/icon.png",
 	"environment": "*",
 	"entrypoints": {
+		"client": [
+			"net.mobilelize.netprodis.NetworkProtocolDisconnect"
+		],
 		"main": [
 
 		],
 		"fabric-datagen": [
 
+		],
+		"modmenu": [
+			"net.mobilelize.netprodis.config.ModMenuIntegration"
 		]
 	},
 	"mixins": [
@@ -31,7 +37,8 @@
 		"java": ">=21"
 	},
 	"suggests": {
-		"another-mod": "*",
+		"modmenu": "*",
+		"cloth-config": "*",
 		"fabric-api": "*"
 	}
 }
