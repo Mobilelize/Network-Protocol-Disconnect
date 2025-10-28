@@ -18,13 +18,13 @@ public class ConfigMenu {
 
         ConfigCategory global = builder.getOrCreateCategory(Text.literal("Global"));
 
-        global.addEntry(entryBuilder.startBooleanToggle(Text.literal("Stop Network Protocol Errors"), true)
+        global.addEntry(entryBuilder.startBooleanToggle(Text.literal("Stop Network Protocol Errors"), ConfigManager.configData.modEnabled)
                 .setDefaultValue(true)
                 .setTooltip(Text.literal("Enables the mod."))
                 .setSaveConsumer(newValue -> ConfigManager.configData.modEnabled = newValue)
                 .build());
 
-        global.addEntry(entryBuilder.startBooleanToggle(Text.literal("Output Logs"), true)
+        global.addEntry(entryBuilder.startBooleanToggle(Text.literal("Output Logs"), ConfigManager.configData.showLogs)
                 .setDefaultValue(true)
                 .setTooltip(Text.literal("Sets if it should logs errors attempts."))
                 .setSaveConsumer(newValue -> ConfigManager.configData.showLogs = newValue)
